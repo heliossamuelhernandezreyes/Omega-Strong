@@ -51,7 +51,7 @@ does not depend on fine-tuning of the scalar potential.
 
 A representative scalar profile is shown below:
 
-![Scalar profile](figures/omega_profile_v1.png)
+![Scalar profile](omega_profile_v1.png)
 
 ---
 
