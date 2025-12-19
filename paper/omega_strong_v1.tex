@@ -1,0 +1,107 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\geometry{margin=2.5cm}
+
+\title{Omega-Strong:\\
+A Geometric Saturation Regime for Classical Strong-Field Gravity}
+
+\author{Helios Samuel Hernández Reyes}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We present \emph{Omega-Strong}, a classical effective strong-field regime of gravity
+based on geometric saturation of curvature.
+The model provides a proof-of-concept mechanism by which spacetime singularities
+can be dynamically avoided without invoking exotic matter or quantum gravity.
+A scalar degree of freedom induces a curvature-controlled saturation that
+suppresses scalar dynamics at high curvature while recovering General Relativity
+in low-curvature regimes.
+Numerical solutions demonstrate the existence of regular strong-field cores
+with finite curvature and a geometrically controlled transition scale.
+\end{abstract}
+
+\section{Motivation}
+
+General Relativity predicts the formation of curvature singularities in
+strong gravitational collapse, signaling a breakdown of the classical theory.
+This motivates the exploration of effective mechanisms by which gravity may
+self-regulate in regimes of extreme curvature.
+
+Omega-Strong is motivated by the hypothesis that the same scalar degree of freedom
+responsible for controlled deviations from General Relativity in weak-field
+regimes may also regulate the strong-field regime through purely geometric effects.
+
+\section{Conceptual Framework}
+
+We introduce a curvature scale $R_\star$ such that the theory exhibits two
+distinct regimes:
+\begin{itemize}
+\item For $R \gg R_\star$, the system enters a \emph{saturated regime} where
+scalar dynamics are dynamically suppressed and curvature remains finite.
+\item For $R \lesssim R_\star$, the theory smoothly transitions back to a
+General-Relativity-like regime with standard scalar dynamics.
+\end{itemize}
+
+Crucially, the transition scale is controlled geometrically and does not depend
+on fine-tuning of the scalar potential.
+
+\section{Effective Model}
+
+The model consists of a scalar field $\Omega$ coupled to gravity through an
+effective curvature-dependent coupling function.
+At high curvature, the effective coupling saturates, suppressing scalar gradients
+and preventing the growth of curvature invariants.
+
+The model is treated as a classical effective theory and is not intended as a
+complete ultraviolet description.
+
+\section{Numerical Solutions}
+
+We solve the static, spherically symmetric field equations numerically.
+The solutions exhibit:
+\begin{itemize}
+\item A regular strong-field core with finite curvature.
+\item Dynamical suppression of scalar gradients in the high-curvature region.
+\item Activation of non-trivial scalar profiles only beyond a curvature threshold.
+\end{itemize}
+
+A representative scalar profile is shown in Fig.~\ref{fig:omega_profile}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.85\linewidth]{../omega_profile_v1.png}
+\caption{Representative scalar profile $\Omega(r)$ in the Omega-Strong regime,
+showing a saturated core and a curvature-controlled transition.}
+\label{fig:omega_profile}
+\end{figure}
+
+\section{Scope and Limitations}
+
+Omega-Strong is a classical effective model.
+It does not claim to describe quantum gravity, provide direct observational
+predictions, or resolve all singularities in a fundamental sense.
+Its purpose is to demonstrate the \emph{existence} of a consistent and regular
+strong-field regime.
+
+\section{Relation to the Omega Program}
+
+Omega-Strong forms part of the broader Omega research program, including:
+\begin{itemize}
+\item Omega-CDM: late-time cosmological phenomenology,
+\item Omega-Strong: classical strong-field regime (this work),
+\item Omega-UV and Omega-Dark: ongoing and future extensions.
+\end{itemize}
+
+\section{Status}
+
+This document corresponds to Omega-Strong v1.
+The model is considered closed at this stage.
+
+\end{document}
